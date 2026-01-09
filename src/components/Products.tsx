@@ -55,7 +55,7 @@ export function Products({ selectedCategory }: ProductsProps) {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl mb-4">
-            Our <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">Products</span>
+            Our <span className="text-[#24C0FF]">Products</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Discover our premium collection of kitchen equipment designed for excellence.

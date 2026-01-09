@@ -53,7 +53,7 @@ Message: ${formData.message}
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl mb-4">
-            Get in <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">Touch</span>
+            Get in <span className="text-[#24C0FF]">Touch</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.

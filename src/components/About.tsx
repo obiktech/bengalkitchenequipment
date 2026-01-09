@@ -44,7 +44,7 @@ export function About() {
           <div className="space-y-6">
             <div>
               <h2 className="text-3xl md:text-4xl mb-4">
-                About <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">Bengal Kitchen</span>
+                About <span className="text-[#24C0FF]">Bengal Kitchen</span>
               </h2>
               <div className="h-1 w-20 bg-gradient-to-r from-orange-600 to-red-600 rounded-full mb-6"></div>
             </div>

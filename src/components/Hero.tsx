@@ -20,7 +20,7 @@ export function Hero({ onNavigate }: HeroProps) {
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl">
               <span className="block">Equip Your Kitchen</span>
-              <span className="block bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+              <span className="block text-[#24C0FF]">
                 For Success
               </span>
             </h1>
@@ -33,7 +33,7 @@ export function Hero({ onNavigate }: HeroProps) {
               <Button
                 size="lg"
                 onClick={() => onNavigate('products')}
-                className="bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700"
+                className="bg-[#24C0FF] text-black hover:text-white hover:from-orange-700 hover:to-red-700"
               >
                 Explore Products
                 <ChevronRight className="ml-2 h-5 w-5" />

@@ -61,7 +61,7 @@ export function Header({ onNavigate, currentSection }: HeaderProps) {
 
               {/* Logo Text */}
               <div>
-                <h1 className="text-2xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+                <h1 className="text-2xl font-bold  text-[#24C0FF]">
                   Bengal Kitchen
                 </h1>
                 <p className="text-xs text-muted-foreground">
@@ -108,7 +108,7 @@ export function Header({ onNavigate, currentSection }: HeaderProps) {
 
                       {/* Text */}
                       <div>
-                        <h2 className="text-xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+                        <h2 className="text-xl font-bold  text-[#24C0FF]">
                           Bengal Kitchen
                         </h2>
                         <p className="text-xs text-muted-foreground font-normal mt-1">

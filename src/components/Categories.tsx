@@ -16,7 +16,7 @@ export function Categories({ onCategorySelect, selectedCategory }: CategoriesPro
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl mb-4">
             Browse by{' '}
-            <span className="bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+            <span className="text-[#24C0FF]">
               Category
             </span>
           </h2>
