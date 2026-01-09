@@ -49,14 +49,26 @@ export function Header({ onNavigate, currentSection }: HeaderProps) {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div
-            className="cursor-pointer"
-            onClick={() => handleNavClick('home')}
-          >
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
-              Bengal Kitchen
-            </h1>
-            <p className="text-xs text-muted-foreground">Premium Kitchen Equipment</p>
-          </div>
+              className="cursor-pointer flex items-center gap-3"
+              onClick={() => handleNavClick('home')}
+            >
+              {/* Logo Image */}
+              <img
+                src="/logo_sq.png" // replace with your image path
+                alt="Bengal Kitchen Logo"
+                className="w-10 h-10 object-contain rounded"
+              />
+
+              {/* Logo Text */}
+              <div>
+                <h1 className="text-2xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+                  Bengal Kitchen
+                </h1>
+                <p className="text-xs text-muted-foreground">
+                  Premium Kitchen Equipment
+                </p>
+              </div>
+            </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">
@@ -86,13 +98,23 @@ export function Header({ onNavigate, currentSection }: HeaderProps) {
               <SheetContent side="right" className="w-[300px] sm:w-[400px]">
                 <SheetHeader>
                   <SheetTitle>
-                    <div className="text-left">
-                      <h2 className="text-xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
-                        Bengal Kitchen
-                      </h2>
-                      <p className="text-xs text-muted-foreground font-normal mt-1">
-                        Premium Kitchen Equipment
-                      </p>
+                    <div className="flex items-center gap-3 text-left">
+                      {/* Logo Image */}
+                      <img
+                        src="/logo_sq.png" // replace with your logo path
+                        alt="Bengal Kitchen Logo"
+                        className="w-10 h-10 object-contain rounded"
+                      />
+
+                      {/* Text */}
+                      <div>
+                        <h2 className="text-xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+                          Bengal Kitchen
+                        </h2>
+                        <p className="text-xs text-muted-foreground font-normal mt-1">
+                          Premium Kitchen Equipment
+                        </p>
+                      </div>
                     </div>
                   </SheetTitle>
                 </SheetHeader>

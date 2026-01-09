@@ -9,9 +9,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
-              Bengal Kitchen
-            </h3>
+            <img
+                        src="/logo.png" // replace with your logo path
+                        alt="Bengal Kitchen Logo"
+                        className="w-50  object-contain rounded"
+                      />
             <p className="text-sm text-muted-foreground">
               Your trusted partner for premium kitchen equipment and solutions. Quality products for professional and home kitchens.
             </p>
