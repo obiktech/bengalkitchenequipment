@@ -1,9 +1,8 @@
-import { ChefHat, Package, UtensilsCrossed } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 import type { CategoryType } from '../types/product';
 import { categories }  from '../data/products';
 interface CategoriesProps {
-  onCategorySelect: (category: CategoryType) => void;
+  onCategorySelect: (category:any) => void;
   selectedCategory: CategoryType;
 }
 
@@ -55,7 +54,7 @@ export function Categories({ onCategorySelect, selectedCategory }: CategoriesPro
                       {category.name}
                     </h3>
                     <p className="text-xs text-muted-foreground">
-                      {category.count}
+                      {/* {category.count} */}
                     </p>
                   </div>
                 </CardContent>

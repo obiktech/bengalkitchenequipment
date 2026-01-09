@@ -8,4 +8,16 @@ export interface Product {
   specifications: { [key: string]: string };
 }
 
-export type CategoryType = 'all' | 'cookware' | 'appliances' | 'gas-stoves' | 'utensils' | 'mixers';
+export type CategoryType =
+  | 'all'
+  | 'cookware'
+  | 'display-counters'
+  | 'cooking-equipment'
+  | 'bakery-equipment'
+  | 'refrigeration'
+  | 'pantry'
+  | 'foodprocess'
+  | 'washingequipment'
+  | 'exhaust-system'
+  | 'gas-stoves'
+  | 'appliances';
