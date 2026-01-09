@@ -26,7 +26,7 @@ Phone: ${formData.phone}
 Message: ${formData.message}
     `.trim();
 
-    const whatsappUrl = `https://wa.me/919775414426?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/918777265780?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
     
     // Show success message
@@ -72,8 +72,8 @@ Message: ${formData.message}
                 <CardDescription>Call us anytime</CardDescription>
               </CardHeader>
               <CardContent>
-                <a href="tel:+919775414426" className="text-lg font-medium hover:text-orange-600 transition-colors">
-                  +91 9775414426
+                <a href="tel:+918777265780" className="text-lg font-medium hover:text-orange-600 transition-colors">
+                  +91 8777265780
                 </a>
               </CardContent>
             </Card>
@@ -103,7 +103,7 @@ Message: ${formData.message}
               </CardHeader>
               <CardContent>
                 <a
-                  href="https://wa.me/919775414426"
+                  href="https://wa.me/918777265780"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-lg font-medium hover:text-green-600 transition-colors"

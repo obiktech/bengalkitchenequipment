@@ -12,7 +12,7 @@ interface ProductCardProps {
 export function ProductCard({ product, onViewDetails }: ProductCardProps) {
   const handleGetQuote = () => {
     const message = `Hi, I'm interested in getting a quote for ${product.name}. Please provide more details.`;
-    const whatsappUrl = `https://wa.me/919775414426?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/918777265780?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

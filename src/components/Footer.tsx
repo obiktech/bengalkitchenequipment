@@ -49,7 +49,7 @@ export function Footer() {
             <div className="space-y-3 text-sm text-muted-foreground">
               <div className="flex items-start gap-2">
                 <Phone className="h-4 w-4 mt-1 flex-shrink-0" />
-                <span>+91 9775414426</span>
+                <span>+91 8777265780</span>
               </div>
               <div className="flex items-start gap-2">
                 <Mail className="h-4 w-4 mt-1 flex-shrink-0" />
@@ -62,7 +62,7 @@ export function Footer() {
               <div className="flex items-start gap-2">
                 <MessageCircle className="h-4 w-4 mt-1 flex-shrink-0" />
                 <a
-                  href="https://wa.me/919775414426"
+                  href="https://wa.me/918777265780"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
